@@ -1,0 +1,20 @@
+name: yaoyongyt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaoyongyt
+        env:
+          zz07: ${{ secrets.zz07 }}
+        run: |
+          echo $zz07 | jq -r .yckkb1 | /bin/bash
+          echo $i66 | jq -r .wt70211 | /bin/bash
+          echo $kvnob06 | jq -r .l1 | /bin/bash
+
