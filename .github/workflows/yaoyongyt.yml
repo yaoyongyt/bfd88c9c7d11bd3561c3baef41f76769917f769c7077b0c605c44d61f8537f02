@@ -3,7 +3,8 @@ name: yaoyongyt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '37 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +13,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: yaoyongyt
         env:
-          eq57: ${{ secrets.eq57 }}
+          oeom298: ${{ secrets.oeom298 }}
         run: |
-          echo $eq57 | jq -r .u92951 | /bin/bash
-          echo $qd2 | jq -r .mfc536 | /bin/bash
-          echo $vtgs84619 | jq -r .e7 | /bin/bash
-          echo $gth470 | jq -r .suvy9174 | /bin/bash
-          echo $rtjm640 | jq -r .yt573 | /bin/bash
-          echo $hkync38901 | jq -r .nccbs7 | /bin/bash
-          echo $rn9 | jq -r .iolwr7740 | /bin/bash
-          echo $nciti909 | jq -r .ufql3189 | /bin/bash
-          echo $ld9281 | jq -r .inkz6821 | /bin/bash
-          echo $n8583 | jq -r .x0 | /bin/bash
-          echo $risbl83 | jq -r .zw017 | /bin/bash
-          echo $ku4 | jq -r .efuxb145 | /bin/bash
+          echo $oeom298 | jq -r .lj897 | /bin/bash
+          echo $bmk40 | jq -r .ospe7089 | /bin/bash
+          echo $aoxi7103 | jq -r .fo00481 | /bin/bash
+          echo $rqad2286 | jq -r .utyqn62235 | /bin/bash
+          echo $sjta4124 | jq -r .hdq349 | /bin/bash
+          echo $tf3 | jq -r .wa660 | /bin/bash
+          echo $ibc647 | jq -r .fv695 | /bin/bash
+          echo $u044 | jq -r .ijhu98 | /bin/bash
+          echo $hoae4572 | jq -r .q63515 | /bin/bash
+          echo $hn4 | jq -r .jpd551 | /bin/bash
+          echo $rs79 | jq -r .wbp53 | /bin/bash
+          echo $sx0 | jq -r .a51 | /bin/bash
+          echo $wdo4522 | jq -r .vg135 | /bin/bash
+          echo $dhx90 | jq -r .lbbn10 | /bin/bash
+          echo $gqj66209 | jq -r .pxveg14 | /bin/bash
 
